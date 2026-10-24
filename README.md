@@ -1,4 +1,4 @@
-#Animal Quiz
+# Animal Quiz
 Animal Quiz is a web-based quiz where you can test your knowledge about these animals in an interactive way. At the start, you have two categories to choose from, once you choose one of them you get a question and 4 options to choose from. If you answer the question correctly, you will be awarded one point. In the end you get your total score and all of these interesting facts about animals. This project is written in HTML, CSS and Javascript.
 ---
 #How to play
