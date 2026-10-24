@@ -12,7 +12,16 @@
         <div class="screen active" id="start-screen">
             <h1>Animal Quiz Time!</h1>
             <p>Test your knowledge about these amazing animals and get to know some crazy facts about them.</p>
-            <button id="start-btn">Start Quiz</button>
+            <div class="quiz-categories">
+                <button class="category-card" id="mammal-card">
+                    <img src="assets/dog.png" alt="Mammals">
+                    <h3>Mammals</h3>
+                </button>
+                <button class="category-card" id="fish-card">
+                    <img src="assets/fish.svg" alt="Fishes">
+                    <h3>Fishes</h3>
+                </button>
+            </div>
         </div>
 
         <div class="screen" id="quiz-screen">
@@ -35,6 +44,13 @@
 
             <div class="progress-bar">
                 <div id="progress" class="progress"></div>
+            </div>
+
+            <div id="fact-container" class="fact-container">
+                <h3>Did you know?</h3>
+                <p id="fact-text">fact</p>
+                <button id="next-btn">Next Question</button>
+                <small id="fact-source">source</small>
             </div>
         </div>
 
